@@ -1,0 +1,5 @@
+A reinvent whell. But what's the better way to learn pe format than handly parse it?
+
+* Links
+https://zh.wikipedia.org/wiki/%E5%8F%AF%E7%A7%BB%E6%A4%8D%E5%8F%AF%E6%89%A7%E8%A1%8C
+https://blog.kowalczyk.info/articles/pefileformat.html#:~:text=Introduction,MZ%20header%20from%20MS%2DDOS.

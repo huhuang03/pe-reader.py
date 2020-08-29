@@ -1,0 +1,33 @@
+class Machine():
+    def __init__(self, code, name):
+        super().__init__()
+        self.code = code
+        self.name = name
+
+machine_0 = Machine(0x00, "No specific instruction set")
+machine_1 = Machine(0x01, "AT&T WE 32100")
+machine_2 = Machine(0x02, "SPARC")
+machine_3 = Machine(0x03, "x86")
+machine_4 = Machine(0x04, "Motorola 68000 (M68k)")
+machine_5 = Machine(0x05, "Motorola 88000 (M88k)")
+machine_6 = Machine(0x06, "Intel MCU")
+machine_7 = Machine(0x07, "Intel 80860")
+machine_8 = Machine(0x08, "MIPS")
+machine_9 = Machine(0x09, "IBM_System/370")
+machine_10 = Machine(0x0a, "MIPS RS3000 Little-endian")
+machine_11 = Machine(0x0b, "Reserved for future use")
+machine_12 = Machine(0x0c, "Reserved for future use")
+machine_13 = Machine(0x0d, "Reserved for future use")
+machine_14 = Machine(0x0e, "Hewlett-Packard PA-RISC")
+machine_15 = Machine(0x0f, "Reserved for future use")
+machine_16 = Machine(0x13, "Intel 80960")
+machine_17 = Machine(0x14, "PowerPC")
+machine_18 = Machine(0x15, "PowerPC (64-bit)")
+machine_19 = Machine(0x16, "S390, including S390x")
+machine_20 = Machine(0x28, "ARM (up to ARMv7/Aarch32)")
+machine_21 = Machine(0x2a, "SuperH")
+machine_22 = Machine(0x32, "IA-64")
+machine_23 = Machine(0x3e, "amd64")
+machine_24 = Machine(0x8c, "TMS320C6000 Family")
+machine_25 = Machine(0xb7, "ARM 64-bits (ARMv8/Aarch64)")
+machine_26 = Machine(0xf3, "RISC-V")
